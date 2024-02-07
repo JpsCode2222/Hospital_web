@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.card:hover{
+  background-image: linear-gradient(to bottom right ,#2bc9f4,#61dafb,#ceecf5);
+  color: white;
+  transition: all 0.5s;
+  }
+
+  .gallary_Img:hover{
+    transform: scale(1.05);
+    transition: all 0.5s alternate !important;
+    }
+    .gallary_Img:hover .Gallary_card{
+      overflow: hidden !important;
+      }
+
+@media (max-width:700px) {
+  .sliderImagebg{
+    height: 100% !important;
+    width: 100% !important;
+  }
+}
